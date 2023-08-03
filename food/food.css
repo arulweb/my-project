@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.Navigation-Bar{
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    background-color:#3b1007;
+    background-image: linear-gradient( to right,#2f0d03,#3f1509,#703c2d,#542213);
+    color: white;
+    z-index: 1;
+    
+}
+    
+
+.Navigation-Bar ul{ 
+
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+} 
+
+li{
+    
+    color:white;
+    /* /* display: inline-block; */
+    list-style-type: none; 
+    text-size-adjust: 2px;
+}
+ 
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #dc5c06;
+}
+
+
+.ordermain{
+    background-color: bisque;
+    height: 500px;
+    width: 100%;
+}
+
+
+/* body*/
+
+.Main{
+    height: 600px;
+    width: 100%;
+    background-image: url(img/kfc-front-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    
+    }
+.Main img{
+    margin-left: 10px;
+    animation-name: chicken;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chicken{
+  0%,100%{transform: translateY(0);}
+  50%{transform: translateY(20px);}
+}
+
+.text{ 
+    display: inline-block;
+    font-size:xx-large;
+    margin-top: 120PX;
+    margin-left: 250px;
+ }
+.two{
+    display: inline-block;
+    font-style: italic;
+    color: #dc5c06;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.three{
+    display: inline-block;
+    font-style: italic;
+    color: #dc5c06;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 300px ;
+}
+
+.GridMain{
+    height: 250px;
+    width: 100%;
+    background-color:#2f0d03;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: space-between;
+}
+
+.grid{
+    color: #dc5c06;
+    text-align: center;
+    border: 2px solid white;
+    background-color: antiquewhite;
+    border: 5px solid #2f0d03;
+}
+.box1 img{
+    position: relative;
+    left :0px;
+    height: 150px;
+    
+}
+/* .box1 p{ 
+    color: white;
+    text-align: center;*/
+.pick line{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box2 img{
+    height: 150px;
+    width: 100px;
+
+}
+
+
+.box3 img{
+    height: 150px ;
+    width:100px;
+}
+
+/* menu */
+
+.mainmenu p{
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.mainmenu ul{
+    margin-top: 20px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+span{
+    color: black;
+    margin-top: 3px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button{
+    position: relative;
+    left: 45%;
+    bottom: 20px;
+    border: 1px solid #dc5c06;
+    height: 40px;
+    width: 100px;
+    background-color: #dc5c06;
+    margin-top:50px;
+
+}
+
+button:hover{
+    cursor:pointer;
+    background-color:#140101;
+}
+
+/* order main */
+.ordermain{
+    background-color: #fcd242;
+}
+
+.ordermain img{
+    float: left;
+    height: 400px;
+    width: 500px;
+    animation-name: order;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes order {
+    0%{ transform: translateX(-50%);}
+    50%,100%{transform: translate( 0,0);}
+    
+    
+    
+    
+    
+}
+
+.ordermain h1{
+    position: relative;
+    top:150px;
+}
+.ordermain h2{
+    position: relative;
+    top:150px;
+}
+.ordermain p{
+    position: relative;
+    top:150px;
+}
+
+.ordermain h1{
+    position: relative;
+    left:140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.ordermain button{
+    position: relative;
+    top:200px;
+    left: 200px;
+}
+
+
+
+ /* contACT*/ 
+
+ .ContactMain{
+     display: grid;  
+    grid-template-columns: 1fr 1fr;
+    align-content: space-between;
+    /* display: flex; 
+    flex-direction: row;
+    justify-content: space-between;*/
+    height: 600px;
+    width:100% ;
+    background-image: url(img/wom.jpg);
+
+
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: #000;
+
+  
+ }
+
+ .ContactMain h1{
+    margin: 40px ;
+ }
+.ContactMain h2{
+    margin: 40px;
+}
+/* .Contactone{
+    float: left;
+    display: inline-block;
+} */
+
+ .input{
+    /* display: inline-block; 
+    margin: 60px;
+    padding: 50px;*/
+     display: grid; 
+    align-content: space-evenly;
+    width:500px;
+    
+ }
+
+ .contacttwo{
+    
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 150px;
+
+}
+
+.contacttwo p{
+    font-size:larger;
+}
+
+.logomain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 240px;
+}
+/* 
+/* footer */
+/* .footermain{
+    position: sticky;
+    width: 100%;
+    bottom: 0px;
+    height: 50px;
+    width:;
+
+    background-color: #3f1509;
+} */ 

@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    /* background-color: rgb(249 242 234) */
+    
+}
+
+
+
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color:#703c2d ;
+    text-align: center;
+    
+    
+}
+h1{
+    text-decoration: underline red;
+}
+
+
+.chickmain{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content:s ;
+}
+
+.chn2{
+    margin-top: 80px;
+
+}
+
+
+.bg{
+    background-image: url(img/delicious-hot-and-crispy-fried-chicken-meat-free-photo.jpg);
+    color: #ffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    font-size: larger;
+}
+/* contact */
+
+
+.ContactMain{
+   display: grid;  
+   grid-template-columns: 1fr 1fr;
+   align-content: space-between;
+   /* display: flex; 
+   flex-direction: row;
+   justify-content: space-between;*/
+   height: 600px;
+   width: ;
+   background-image: url(img/wom.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   color: #000;
+   border-top: 30px solid white;
+
+ 
+}
+
+.ContactMain h1{
+   margin: 40px ;
+}
+.ContactMain h2{
+   margin: 40px;
+}
+/* .Contactone{
+   float: left;
+   display: inline-block;
+} */
+
+.input{
+   /* display: inline-block; 
+   margin: 60px;
+   padding: 50px;*/
+    display: grid; 
+   align-content: space-evenly;
+   width:500px;
+   
+}
+
+.contacttwo{
+   
+   text-align: center;
+   margin-top: 40px;
+   margin-left: 150px;
+
+}
+
+.contacttwo p{
+   font-size:larger;
+}
